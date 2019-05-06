@@ -1,9 +1,9 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :world_to_analize
+  attr_accessor :word_to_analize
   
-  def initialize(world_to_analize)
-    @world_to_analize = world_to_analize
+  def initialize(word_to_analize)
+    @word_to_analize = word_to_analize
   end
   
   
