@@ -1,6 +1,10 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :
+  attr_accessor :world_to_analize
   
-  diaper = Anagram.new('diaper')
+  def initialize(world_to_analize)
+    @world_to_analize = world_to_analize
+  end
+  
+  
 end
